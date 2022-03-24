@@ -2,7 +2,6 @@
 @media screen and (max-width: 768px) {
     .h-habilidades .item {
         display: flex;
-        flex-direction: row;
         align-items: center;
         width: 100%;
         margin-bottom: 20px;
@@ -37,22 +36,26 @@
     }
     
     /* Experiências */
-    .h-itens .item {
+    .container .h-experiencia .h-title-experiencia h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-experiencia .h-itens .item {
         display: flex;
         flex-direction: column;
         width: 100%;
         min-height: 220px;
         margin-bottom: 50px;
     }
-    .h-itens .item .work {
+    .container .h-experiencia .h-itens .item .work {
         min-width: 100%;
         min-height: 80px;
     }
-    .description {
+    .container .h-experiencia .h-itens .item .description {
         min-width: 100%;
         min-height: 100px;
     }
-    .description h2 {
+    .container .h-experiencia .h-itens .item .description h2 {
         margin-bottom: 20px;
     }
 
@@ -73,7 +76,7 @@
 
     /* Habilidades */
     
-    .h-habilidades .item {
+    .container .h-habilidades .item  {
         display: flex;
         flex-direction: row;
         align-items: center;
